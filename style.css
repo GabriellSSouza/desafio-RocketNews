@@ -3,7 +3,7 @@
 https://efficient-sloth-d85.notion.site/Desafio-RocketNews-2e2c5d56b41f4b13a7d8df6b5affc0ec
 
     Figma
-https://www.figma.com/file/BNSVfzXbo1hdxmbHmZQpjB/DD-%2F-RocketNews-(Copy)?node-id=3-2&t=jnbLZsmGQn9ffBKO-0
+https://www.figma.com/file/jcOfNWef8VT5id4WQZO0T3/DD-%2F-RocketNews-(Copy)?node-id=3-2&t=ZUemMZEANFf4vODz-0
 */
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
@@ -20,4 +20,62 @@ https://www.figma.com/file/BNSVfzXbo1hdxmbHmZQpjB/DD-%2F-RocketNews-(Copy)?node-
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    color: var(--text-color);
+}
+
+.area_info {
+    background-color: var(--body-bg-color);
+    height:100vh;
+    width: 50%;
+}
+
+.imagem_fundo {
+    background:url(assets/read_news.jpg) no-repeat 80%;
+    background-size: cover;
+    height:100vh;
+    width: 50%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.info_textos{
+    
+}
+
+.info_textos h2{
+    color: var(--title-color);
+}
+
+.info_textos h3 {
+    font-weight: 700;
+}
+
+.enviar_email{
+    display: flex;
+    align-items: center;
+}
+
+.enviar_email label{
+    color: var(--form-color);
+}
+
+.saiberMais{
+    display: flex;
+    align-items: center;
+}
+.saiberMais a{
+    text-decoration: none;
+    color: var(--bg-button-color);
 }
