@@ -8,3 +8,6 @@
 ### Desafio opcional :white_check_mark:
 - [ ] Criando uma função para o botão (ex. Exibir um alerta)
 - [ ] Salvar os e-mails digitados em algum banco de dados
+
+### Link do site
+[Acesse o resultado aqui](https://gabriellssouza.github.io/desafio-RocketNews/)
