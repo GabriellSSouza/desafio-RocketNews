@@ -155,6 +155,7 @@ body {
     
     .area_info {
         width: 100%;
+        min-height: 700px;
     }
 
     .logo img {
@@ -168,6 +169,10 @@ body {
 }
 
 @media screen and (max-width:480px){
+    .area_info{
+        min-height: 700px;
+    }
+    
     .logo img{
         min-width: unset;
         width: 100%;
