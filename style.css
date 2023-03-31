@@ -166,3 +166,10 @@ body {
         width: 90%;
     }
 }
+
+@media screen and (max-width:480px){
+    .logo img{
+        min-width: unset;
+        width: 100%;
+    }
+}
